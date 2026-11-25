@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="screen_bg">#FFFFFF</color>
+    <color name="splash_bg">#F3F3EE</color>
+    <color name="surface_alt">#F5F7FA</color>
+    <color name="border">#E4E8F0</color>
+    <color name="text_primary">#141B34</color>
+    <color name="text_secondary">#8A93A5</color>
+    <color name="primary">#4B8EF5</color>
+    <color name="primary_light">#EAF2FF</color>
+    <color name="navy">#1B1F3B</color>
+    <color name="green">#22A06B</color>
+    <color name="red">#E5484D</color>
+    <color name="red_light">#FDECEC</color>
+    <color name="orange">#E67700</color>
+</resources>

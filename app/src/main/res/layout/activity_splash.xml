@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- logo: small icons floating around a pink blob -->
+    <FrameLayout
+        android:id="@+id/layoutLogo"
+        android:layout_width="220dp"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/iconPink"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="#F26D8D" />
+
+        <TextView
+            android:id="@+id/iconNavy"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_square"
+            android:backgroundTint="@color/navy"
+            android:gravity="center"
+            android:text="~"
+            android:textColor="#5ED4B5"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/iconTeal"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_square"
+            android:backgroundTint="#5ED4B5"
+            android:gravity="center"
+            android:text="⚑"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/iconBlue"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/bg_square"
+            android:backgroundTint="#3F6DF5"
+            android:gravity="center"
+            android:text="✱"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/iconGreen"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_square"
+            android:backgroundTint="#5ED4B5"
+            android:gravity="center"
+            android:text="♥"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtTagline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="Management of a project will be easier if it is done well"
+        android:textColor="@color/navy"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_button_navy"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_square"
+        android:backgroundTint="#C9CBD1" />
+</LinearLayout>
